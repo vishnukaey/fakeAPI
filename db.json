@@ -1,0 +1,44 @@
+{
+    "status": 1,
+    "message": "Successfully fetched checklist!",
+    "data": {
+        "check_list": {
+            "id": 3,
+            "name": "value",
+            "company": {
+                "id" : 4,
+                "name": "name"
+            },
+            "check_groups": [{
+                             "id" : 3,
+                             "name": "General",
+                             "checks": [{
+                                        "id" : 3,
+                                        "name": "possibilities",
+                                        "type": "TEXT"
+                                        },
+                                        {
+                                        "id" : 3,
+                                        "name": "possibilities",
+                                        "type": "OK_NOT_OK"
+                                        }
+                                        ],
+                             "sub_groups": [{
+                                           "id" : 3,
+                                           "name": "subgroup-name",
+                                           "checks": [{
+                                                      "id" : 3,
+                                                      "name": "possibilities",
+                                                      "type": "TEXT"
+                                                      },
+                                                      {
+                                                      "id" : 3,
+                                                      "name": "possibilities",
+                                                      "type": "OK_NOT_OK"
+                                                      }
+                                                      ]
+                                           }]
+                             }]
+        }
+    }
+}
